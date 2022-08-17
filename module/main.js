@@ -320,25 +320,25 @@ Hooks.once('ready', async function () {
 })
 
 Hooks.once('diceSoNiceReady', (dice3d) => {
-  dice3d.addSystem({id: 'wod5e', name: 'WoD5e'}, true)
+  dice3d.addSystem({id: 'wod5j', name: 'wod5j'}, true)
 
   dice3d.addDicePreset({
     type: 'dv',
     labels: [
-      'systems/wod5e/assets/images/normal-fail-dsn.png',
-      'systems/wod5e/assets/images/normal-fail-dsn.png',
-      'systems/wod5e/assets/images/normal-fail-dsn.png',
-      'systems/wod5e/assets/images/normal-fail-dsn.png',
-      'systems/wod5e/assets/images/normal-fail-dsn.png',
-      'systems/wod5e/assets/images/normal-success-dsn.png',
-      'systems/wod5e/assets/images/normal-success-dsn.png',
-      'systems/wod5e/assets/images/normal-success-dsn.png',
-      'systems/wod5e/assets/images/normal-success-dsn.png',
-      'systems/wod5e/assets/images/normal-crit-dsn.png'
+      'systems/wod5j/assets/images/normal-fail-dsn.png',
+      'systems/wod5j/assets/images/normal-fail-dsn.png',
+      'systems/wod5j/assets/images/normal-fail-dsn.png',
+      'systems/wod5j/assets/images/normal-fail-dsn.png',
+      'systems/wod5j/assets/images/normal-fail-dsn.png',
+      'systems/wod5j/assets/images/normal-success-dsn.png',
+      'systems/wod5j/assets/images/normal-success-dsn.png',
+      'systems/wod5j/assets/images/normal-success-dsn.png',
+      'systems/wod5j/assets/images/normal-success-dsn.png',
+      'systems/wod5j/assets/images/normal-crit-dsn.png'
     ],
     colorset: 'black',
     fontScale: 0.5,
-    system: 'wod5e'
+    system: 'wod5j'
   })
 
   dice3d.addColorset({
@@ -360,38 +360,38 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
   dice3d.addDicePreset({
     type: 'dg',
     labels: [
-      'systems/wod5e/assets/images/bestial-fail-dsn.png',
-      'systems/wod5e/assets/images/red-fail-dsn.png',
-      'systems/wod5e/assets/images/red-fail-dsn.png',
-      'systems/wod5e/assets/images/red-fail-dsn.png',
-      'systems/wod5e/assets/images/red-fail-dsn.png',
-      'systems/wod5e/assets/images/red-success-dsn.png',
-      'systems/wod5e/assets/images/red-success-dsn.png',
-      'systems/wod5e/assets/images/red-success-dsn.png',
-      'systems/wod5e/assets/images/red-success-dsn.png',
-      'systems/wod5e/assets/images/red-crit-dsn.png'
+      'systems/wod5j/assets/images/bestial-fail-dsn.png',
+      'systems/wod5j/assets/images/red-fail-dsn.png',
+      'systems/wod5j/assets/images/red-fail-dsn.png',
+      'systems/wod5j/assets/images/red-fail-dsn.png',
+      'systems/wod5j/assets/images/red-fail-dsn.png',
+      'systems/wod5j/assets/images/red-success-dsn.png',
+      'systems/wod5j/assets/images/red-success-dsn.png',
+      'systems/wod5j/assets/images/red-success-dsn.png',
+      'systems/wod5j/assets/images/red-success-dsn.png',
+      'systems/wod5j/assets/images/red-crit-dsn.png'
     ],
     colorset: 'hunger',
-    system: 'wod5e'
+    system: 'wod5j'
   })
 
   dice3d.addDicePreset({
     type: 'dh',
     labels: [
-      'systems/wod5e/assets/images/normal-fail-dsn.png',
-      'systems/wod5e/assets/images/normal-fail-dsn.png',
-      'systems/wod5e/assets/images/normal-fail-dsn.png',
-      'systems/wod5e/assets/images/normal-fail-dsn.png',
-      'systems/wod5e/assets/images/normal-fail-dsn.png',
-      'systems/wod5e/assets/images/hunter-normal-success-dsn.png',
-      'systems/wod5e/assets/images/hunter-normal-success-dsn.png',
-      'systems/wod5e/assets/images/hunter-normal-success-dsn.png',
-      'systems/wod5e/assets/images/hunter-normal-success-dsn.png',
-      'systems/wod5e/assets/images/hunter-normal-crit-dsn.png'
+      'systems/wod5j/assets/images/normal-fail-dsn.png',
+      'systems/wod5j/assets/images/normal-fail-dsn.png',
+      'systems/wod5j/assets/images/normal-fail-dsn.png',
+      'systems/wod5j/assets/images/normal-fail-dsn.png',
+      'systems/wod5j/assets/images/normal-fail-dsn.png',
+      'systems/wod5j/assets/images/hunter-normal-success-dsn.png',
+      'systems/wod5j/assets/images/hunter-normal-success-dsn.png',
+      'systems/wod5j/assets/images/hunter-normal-success-dsn.png',
+      'systems/wod5j/assets/images/hunter-normal-success-dsn.png',
+      'systems/wod5j/assets/images/hunter-normal-crit-dsn.png'
     ],
     colorset: 'black',
     fontScale: 0.5,
-    system: 'wod5e'
+    system: 'wod5j'
   })
 
   dice3d.addColorset({
@@ -413,19 +413,19 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
   dice3d.addDicePreset({
     type: 'ds',
     labels: [
-      'systems/wod5e/assets/images/desperation-fail-dsn.png',
-      'systems/wod5e/assets/images/red-fail-dsn.png',
-      'systems/wod5e/assets/images/red-fail-dsn.png',
-      'systems/wod5e/assets/images/red-fail-dsn.png',
-      'systems/wod5e/assets/images/red-fail-dsn.png',
-      'systems/wod5e/assets/images/hunter-normal-success-dsn.png',
-      'systems/wod5e/assets/images/hunter-normal-success-dsn.png',
-      'systems/wod5e/assets/images/hunter-normal-success-dsn.png',
-      'systems/wod5e/assets/images/hunter-normal-success-dsn.png',
-      'systems/wod5e/assets/images/hunter-normal-crit-dsn.png'
+      'systems/wod5j/assets/images/desperation-fail-dsn.png',
+      'systems/wod5j/assets/images/red-fail-dsn.png',
+      'systems/wod5j/assets/images/red-fail-dsn.png',
+      'systems/wod5j/assets/images/red-fail-dsn.png',
+      'systems/wod5j/assets/images/red-fail-dsn.png',
+      'systems/wod5j/assets/images/hunter-normal-success-dsn.png',
+      'systems/wod5j/assets/images/hunter-normal-success-dsn.png',
+      'systems/wod5j/assets/images/hunter-normal-success-dsn.png',
+      'systems/wod5j/assets/images/hunter-normal-success-dsn.png',
+      'systems/wod5j/assets/images/hunter-normal-crit-dsn.png'
     ],
     colorset: 'desperation',
-    system: 'wod5e'
+    system: 'wod5j'
   })
 })
 
@@ -438,7 +438,7 @@ Hooks.on('renderSidebarTab', (app, html) => {
   }
 
   const $chatForm = html.find('#chat-form')
-  const template = 'systems/wod5e/templates/ui/tray.html'
+  const template = 'systems/wod5j/templates/ui/tray.html'
   const ownedCharacters = Array.from(game.actors)
     .filter((c) => c.permission === OWNED_PERMISSION)
   const options = {
